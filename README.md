@@ -52,4 +52,5 @@ docker image build -t free-exposed-website . && docker container run -it -p 5000
 ![Docker build and run](readme-images/docker-build-and-run.png)
 
 Website design:
+
 ![Website design](readme-images/website-design.png)
