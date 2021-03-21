@@ -2,7 +2,7 @@
 
 Docker image of free exposed website which can be hosted on
 any device supported by **Python 3** and **Node.js** or **Docker**.
-Website will be automatically available to the internet at https://free-exposed.loca.lt/ if it's
+Website will be automatically available to the internet at https://free-exposed.loca.lt/ (subdomain can be changed in `start.sh`) if it's
 currently not occupied.
 
 The website would also be available to hosting machine at http://localhost:5000/ (note the **http** protocol here).
