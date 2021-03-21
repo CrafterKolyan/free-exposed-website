@@ -1,5 +1,3 @@
-import html
-
 from flask import *
 from flask_bs4 import Bootstrap
 
