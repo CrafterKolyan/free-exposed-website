@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#!/bin/ash -i
 
 PORT=5000
 SUBDOMAIN=free-exposed
