@@ -2,7 +2,7 @@ FROM python:3.8-alpine
 
 WORKDIR /app
 
-RUN apk add --update npm
+RUN apk --no-cache add npm
 RUN npm install -g localtunnel
 
 COPY requirements.txt requirements.txt
