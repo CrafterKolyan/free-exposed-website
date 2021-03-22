@@ -30,7 +30,7 @@ docker build -t free-exposed-website .
 docker container run --rm -p 5000:5000 -it free-exposed-website
 ```
 
-### Python3 and Node.js
+### Python 3 and Node.js
 
 #### Installing required packages
 ```bash
@@ -54,3 +54,8 @@ docker image build -t free-exposed-website . && docker container run -it -p 5000
 Website design:
 
 ![Website design](readme-images/website-design.png)
+
+## Technologies
+- Flask (Python 3)
+- localtunnel (Node.js)
+- Docker
