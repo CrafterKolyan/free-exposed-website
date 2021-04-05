@@ -27,7 +27,7 @@ docker build -t free-exposed-website .
 
 #### Running Docker container
 ```bash
-docker container run --rm -p 5000:5000 -it free-exposed-website
+docker run --rm -p 5000:5000 -it free-exposed-website
 ```
 
 ### Python 3 and Node.js
